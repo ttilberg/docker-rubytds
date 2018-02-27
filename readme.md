@@ -15,7 +15,7 @@ docker build -t ruby-freetds .
 You can also specify the version of FreeTDS that gets installed with an arg:
 
 ```
-docker build -t ruby-freetds --build-arg FREETDS=freetds-1.00.95
+docker build -t ruby-freetds --build-arg FREETDS=freetds-1.00.95 .
 ```
 
 By default it uses `1.00.85` which has been tested to work correctly with at least `tiny_tds (2.1.1)` and `Ruby (2.4)`.
