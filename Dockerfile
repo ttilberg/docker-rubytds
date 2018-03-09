@@ -26,5 +26,3 @@ RUN ./configure --prefix=/usr/local --with-tdsver=7.3 && \
     make && \
     make install && \
     cd .. && rm -rf $FREETDS
-
-RUN gem source add http://gems.thegeck.com
