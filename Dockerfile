@@ -1,4 +1,4 @@
-FROM ruby:2.4
+FROM ruby:2.5
 
 # Set this to the version of TDS you wish to load.
 # You can change it at build time with
